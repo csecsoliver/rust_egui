@@ -1,0 +1,10 @@
+[package]
+name = "egui_olio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.33.3"
+libmath = "0.2.1"
+reqwest = { version = "0.12", features= ["blocking"]}
+trpl = "0.3.0"
